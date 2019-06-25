@@ -27,20 +27,5 @@ end
 
 def find_a(array)
   array.find{ |word| start_with("a")}
+  array
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
