@@ -18,3 +18,14 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  count = 0
+  array.each do |word|
+    if count % 3 == 0
+      word = "$"
+    end
+    count += 3
+  end
+  array
+end
