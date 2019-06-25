@@ -44,9 +44,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |word|
+  array[0][2..-1].each do |word|
     word << "s"
   end
-  array[1] >> "s"
+  #array[1] >> "s"
   array
 end
